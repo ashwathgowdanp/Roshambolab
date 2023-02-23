@@ -22,7 +22,7 @@ if (cValid != "")
 do
 {
     
-    Console.Write("Rock, paper, or scissors? (R/P/S):");
+    Console.Write("Rock, Paper, or Scissors? (r/p/s):");
     var PlayCategory = Console.ReadLine();
 
     string PlayCategValid = Validationcl.validateuserinput(PlayCategory);
